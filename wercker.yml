@@ -1,0 +1,9 @@
+box: wercker/nodejs
+build:
+  steps:
+    - npm-install
+    - npm-test
+deploy:
+  steps:
+    - heroku-deploy:
+        key-name: HEROKU_DEPLOY_KEY
