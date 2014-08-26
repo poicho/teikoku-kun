@@ -1,1 +1,1 @@
-web: bin/hubot -a hipchat -n teikoku-kun
+web: bin/hubot -n teikoku-kun
