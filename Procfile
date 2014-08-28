@@ -1,1 +1,1 @@
-web: bin/hubot -n teikoku-kun
+web: bin/hubot -n teikoku-kun --adapter slack
