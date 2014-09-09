@@ -61,7 +61,7 @@ module.exports = (robot) ->
       cmds = cmds.filter (cmd) ->
         cmd.match new RegExp(filter, 'i')
       if cmds.length == 0
-        msg.send "No available commands match #{filter}"
+        msg.send "#{filter} なんてコマンドはないっちゃ!"
         return
 
     prefix = robot.alias or robot.name
