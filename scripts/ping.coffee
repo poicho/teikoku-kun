@@ -8,7 +8,7 @@
 
 module.exports = (robot) ->
   robot.respond /PING$/i, (msg) ->
-    msg.send msg.random ["全部ぽいちょ！", "ぽいちょ！", "じゃあ、モクモクしちゃう?", "モックモックさせてよー http://youtu.be/jfMEFJbDI2s?t=1m30s"]
+    msg.send msg.random saito
 
   robot.respond /ADAPTER$/i, (msg) ->
     msg.send robot.adapterName
@@ -23,3 +23,9 @@ module.exports = (robot) ->
     msg.send "じゃあの."
     process.exit 0
 
+saito = [
+  "ぽいちょ！", "ぽいちょ！", "ぽいちょ！", "ぽいちょ！",
+  "全部ぽいちょ！",
+  "じゃあ、モクモクしちゃう?",
+  "モックモックさせてよー http://youtu.be/jfMEFJbDI2s?t=1m30s"
+]
