@@ -8,7 +8,7 @@
 
 module.exports = (robot) ->
   robot.respond /PING$/i, (msg) ->
-    msg.send "ぽいちょ！"
+    msg.send msg.random ["全部ぽいちょ！", "ぽいちょ！", "じゃあ、モクモクしちゃう?", "モックモックさせてよー http://youtu.be/jfMEFJbDI2s?t=1m30s"]
 
   robot.respond /ADAPTER$/i, (msg) ->
     msg.send robot.adapterName
