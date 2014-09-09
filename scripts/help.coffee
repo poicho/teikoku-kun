@@ -2,8 +2,8 @@
 #   Generates help commands for Hubot.
 #
 # Commands:
-#   hubot help - Displays all of the help commands that Hubot knows about.
-#   hubot help <query> - Displays all help commands that match <query>.
+#   hubot help - おしえてあげる
+#   hubot help <query> - <query>をおしえてあげる.
 #
 # URLS:
 #   /hubot/help
