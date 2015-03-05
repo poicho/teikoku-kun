@@ -79,7 +79,7 @@ saito_nature =
     {
       pattern: /HO/,
       txt: [
-        "ほれ http://goo.gl/d8jPly"
+        "ほれ http://goo.gl/d8jPIy"
       ]
     },
     {
