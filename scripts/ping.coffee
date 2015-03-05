@@ -81,5 +81,13 @@ saito_nature =
       txt: [
         "ほれ http://goo.gl/d8jPly"
       ]
+    },
+    {
+      pattern: /ぬがなくていい/i,
+      txt: [
+        "いや",
+        "やだ",
+        "だめ"
+      ]
     }
   ]
