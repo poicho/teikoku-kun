@@ -76,4 +76,10 @@ saito_nature =
         "ま、だいじょーぶでしょ",
       ]
     },
+    {
+      pattern: /HO/i,
+      txt: [
+        "ほれ http://goo.gl/d8jPly"
+      ]
+    }
   ]
